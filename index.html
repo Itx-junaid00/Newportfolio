@@ -5,136 +5,85 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>Personal Portfolio Website</title>
+    <title>Best bat selling website</title>
     <script src="https://kit.fontawesome.com/293c5fd9e5.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <div id="header">
-        <div>
-            <nav class="container">
-                <img src="img/logo.png" alt="" class="logo">
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                    <i class="fas fa-times" onclick="closemenu()"></i>
-                </ul>
-                <i class="fas fa-bars" onclick="openmenu()"></i>
-            </nav>
-            <div class="header-text">
-                <p>Web Developer</p>
-                <h1>Hi,I am <span>Junaid</span> <br>from Pakistan</h1>
+    <header id="header">
+        <div class="container">
+            <div>
+                <nav>
+                    <img src="images/logo.png" class="logo">
+                    <ul id="navbar">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#product">Products</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fas fa-times" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fas fa-bars" onclick="openmenu()"></i>
+                </nav>
             </div>
         </div>
-    </div>
+    </header>
     <!-- about -->
-    <div id="about">
-        <div class="container">
-            <div class="row">
-                <div class="about-col-1">
-                    <img src="img/me.png.jpg">
-                </div>
-                <div class="about-col-2">
-                    <h1 class="sub-title">About ME</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum inventore voluptatum suscipit
-                        ipsam neque earum rerum magni! Impedit ipsam reiciendis natus minima quibusdam veniam possimus
-                        velit, fuga recusandae quasi sapiente.</p>
-                    <div class="tab-titles">
-                        <p class="tab-link active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-link" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-link" onclick="opentab('eduation')">Education</p>
-                    </div>
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>Web</span> <br>Development</li>
-                            <li><span>Websites</span> <br>Development ideas</li>
-                            <li><span>Websites</span> <br>Designs</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span>New</span> <br>in Web Development</li>
-                            <li><span>Yet</span> <br>no experience</li>
-                            <li><span>Working Hard</span> <br>to become Web Developer</li>
-                        </ul>
-                    </div>
-                    <div class="tab-contents" id="eduation">
-                        <ul>
-                            <li><span>Still</span> <br>Studing</li>
-                            <li><span>Doing</span> <br>BS in Physics</li>
-                            <li><span>Always ready</span> <br>to learn new skills </li>
-                        </ul>
+    <article>
+        <div id="about">
+            <div class="container">
+                <div class="header">
+                    <div>
+                        <h1>Vareity of <span id="element">Bats</span><br> are available here</h1>
+                        <br>
+                        <br>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur at provident, iure
+                            doloremque, quam earum qui illo tempora veritatis eligendi adipisci cumque. Facilis minus
+                            voluptatum odio natus, consequuntur nesciunt quae.</p>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Services -->
-    <div id="services">
+    </article>
+    <!-- Products -->
+    <div id="product">
         <div class="container">
-            <h1 class="sub-title">My Services</h1>
-            <div class="services-list">
-                <div>
-                    <i class="fa-solid fa-code"></i>
-                    <h2>Web Developer</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quo dolore rerum natus velit
-                        harum.</p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-crop"></i>
-                    <h2>Web Development ideas</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quo dolore rerum natus velit
-                        harum.</p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-brands fa-apple"></i>
-                    <h2>Web Designs</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quo dolore rerum natus velit
-                        harum.</p>
-                    <a href="#">Learn more</a>
-                </div>
-                <div>
-                    <i class="fa-solid fa-image"></i>">
-                    <h2>Website Images</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt quo dolore rerum natus velit
-                        harum.</p>
-                    <a href="#">Learn more</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio -->
-    <div id="portfolio">
-        <div class="container">
-            <h1 class="sub-title">My Work</h1>
+            <h1 class="sub-title">Products</h1>
+            <br>
+            <br>
+            <div class="h1"><h1>Images of <span id="overlay"></span></h1></div>
             <div class="work-list">
                 <div class="work">
-                    <img src="/img/work-1.avif" alt="">
+                    <img src="images/sixer.jpg" alt="">
                     <div class="layer">
-                        <h3>Social Media App</h3>
+                        <h3>Big sixer Sports</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus explicabo unde facilis a
                             odit ducimus.</p>
                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="img/work-2.avif" alt="">
+                    <img src="images/jd.png" alt="">
                     <div class="layer">
-                        <h3>Music Media App</h3>
+                        <h3>JD Sports</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus explicabo unde facilis a
                             odit ducimus.</p>
                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
-                    <img src="/img/work-3.avif" alt="">
+                    <img src="images/german.png" alt="">
                     <div class="layer">
-                        <h3>Online Media App</h3>
+                        <h3>German Sports</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus explicabo unde facilis a
+                            odit ducimus.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/saki.png" alt="">
+                    <div class="layer">
+                        <h3>Saki Sports</h3>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus explicabo unde facilis a
                             odit ducimus.</p>
                         <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
@@ -144,22 +93,48 @@
             <a href="#" class="btn">See more</a>
         </div>
     </div>
-    <!-- Contact -->
+    <!-- Services -->
+    <div id="services">
+        <div class="container">
+            <h1>
+                Services
+            </h1>
+            <div class="heading">
+                <div class="paragraphs">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <h2>All over pakistan</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ut id velit beatae molestiae
+                        quis eius tempore soluta maiores. Illo, molestias iusto. Dolorem, asperiores neque.</p>
+                </div>
+                <div class="paragraphs">
+                    <i class="fa-duotone fa-moped"></i>
+                    <h2>Free Delivery</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ut id velit beatae molestiae
+                        quis eius tempore soluta maiores. Illo, molestias iusto. Dolorem, asperiores neque.</p>
+                </div>
+                <div class="paragraphs">
+                    <i class="fa-solid fa-hundred-points"></i>
+                    <h2>Gaurantee Products</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque ut id velit beatae molestiae
+                        quis eius tempore soluta maiores. Illo, molestias iusto. Dolorem, asperiores neque.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contacts -->
     <div class="contact" id="contact">
         <div class="container">
             <div class="row">
                 <div class="contact-left">
                     <h1 class="sub-title">Contact Me</h1>
-                    <p><i class="fa-solid fa-paper-plane"></i>.....@gamil.com</p>
-                    <p><i class="fa-solid fa-square-phone"></i>..............</p>
+                    <p><i class="fa-solid fa-paper-plane"></i>Junaid0khattar@gamil.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>03xx-xxxxxxx</p>
                     <div class="social-icons">
                         <a href="#"><i class="fa-brands fa-facebook"></i></a>
                         <a href="#"><i class="fa-brands fa-instagram"></i></a>
                         <a href="#"><i class="fa-brands fa-twitter"></i></a>
                         <a href="#"><i class="fa-brands fa-snapchat"></i></a>
                     </div>
-                    <a href="/img/JavaScript Chapter 1 - Variables and Data.pdf" download class="btn btn2">Download
-                        CV</a>
                 </div>
                 <div class="contact-right">
                     <form name="submit-to-google-sheet">
@@ -175,52 +150,32 @@
         <div class="copyright">
             <p>Copyright @JunaidPortfolio<i class="fa-solid fa-heart"></i>Website</p>
         </div>
-    </div>
-    <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-function opentab(tabname){
-    for(tablink of tablinks){
-        tablink.classList.remove("active-link");
-    }
-    for(tabcontent of tabcontents){
-        tabcontent.classList.remove("active-tab");
-    }
-    event.currentTarget.classList.add("active-link")
-    document.getElementById(tabname).classList.add("active-tab")
-}
-
-
-
-
-    </script>
-    <script>
-        var sidemenu = document.getElementById("sidemenu")
-        function openmenu() {
-            sidemenu.style.right = "0";
-        }
-        function closemenu() {
-            sidemenu.style.right = "-200px";
-        }
-    </script>
-    <script>
-        const scriptURL = 'https://script.google.com/macros/s/AKfycbx3M4Dd7mV81r0E9CChRhgDoD-lmhsvznQ01rOAYw6bbDos7ZBJogDf4FCTrWO9mtBG/exec'
-        const form = document.forms['submit-to-google-sheet']
-        const msg = document.getElementById("msg")
-        form.addEventListener('submit', e => {
-            e.preventDefault()
-            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
-                .then(response => {
-                    msg.innerHTML = "Message sent successfully"
-                    setTimeout(function () {
-                        msg.innerHTML = ""
-                    }, 5000)
-                    form.reset()
-                })
-                .catch(error => console.error('Error!', error.message))
-        })
-    </script>
-
+        <script>
+            var navbar = document.getElementById("navbar")
+            function openmenu() {
+                navbar.style.right = "0";
+            }
+            function closemenu() {
+                navbar.style.right = "-200px";
+            }
+        </script>
+        <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+            <script>
+    var typed = new Typed('#element', {
+      strings: ['Bats', 'Balls', 'Bat covers'],
+      typeSpeed: 50,
+    });
+    document.getElementById("element").style.color = "violet";
+  </script>
+             <script>
+    var typed = new Typed('#overlay', {
+      strings: ['Saki bats','German bats','Big sixer bats','JD bats'],
+      typeSpeed: 50,
+    });
+    document.getElementById("overlay").style.color = "violet";
+  </script>
+         
+         
 </body>
 
 </html>
